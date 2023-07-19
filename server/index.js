@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 // to connect the server with mongodb database
-mongoose.connect('mongodb+srv://devesh:devesh@cluster1.xckyvmg.mongodb.net/')
+mongoose.connect('mongodb://localhost:/testing')
 .then(()=>{
     console.log("MongoDB is connected.")
 })
